@@ -8,4 +8,8 @@ services:
       build: ./demo1
       ports:
           - "80"
+  demo2:
+      build: ./demo2
+      ports:
+          - "80"
 
