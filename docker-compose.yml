@@ -4,6 +4,10 @@ services:
       build: ./nginx
       ports:
           - "80:80"
+  owasp-top-ten:
+      image: jtwalraven/owasp-top10-demo
+      ports:
+        - "8899:80"
   demo1:
       build: ./demo1
       ports:
